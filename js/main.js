@@ -129,7 +129,6 @@ document.addEventListener('keydown', (event) => {
     switch (event.code) {
         case 'Space':
             update = 1;
-            console.log(update);
             break;
     }
 })
@@ -138,7 +137,6 @@ document.addEventListener('keyup', (event) => {
     switch (event.code) {
         case 'Space':
             update = 0;
-            console.log(update);
             break;
     }
 })
