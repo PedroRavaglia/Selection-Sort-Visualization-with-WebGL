@@ -63,7 +63,7 @@ var quadPositions = app.createVertexBuffer(PicoGL.FLOAT, 2, new Float32Array([
 var vertexArray = app.createVertexArray();
 vertexArray.vertexAttributeBuffer(0, quadPositions);
 
-let a = Array.from({length: n}, () => Math.random());
+let a = Array.from({length: settings.n}, () => Math.random());
 
 function partial_Selection_Sort(A, step) {
     let [min, pos] = [A[step], step];
