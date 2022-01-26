@@ -67,7 +67,6 @@ vertexArray.vertexAttributeBuffer(0, quadPositions);
 
 let a = Array.from({length: n}, () => Math.random());
 
-// function partial_Selection_Sort(A, n, drawCall, step) {
 function partial_Selection_Sort(A, step) {
     let [min, pos] = [A[step], step];
     for(let i=step; i<A.length; i++) {
