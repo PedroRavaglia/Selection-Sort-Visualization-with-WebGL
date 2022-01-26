@@ -131,8 +131,6 @@ app.createPrograms([vert, frag]).then(([program]) => {
 document.addEventListener('keydown', (event) => {
     switch (event.code) {
         case 'Space':
-            // if (update == 1) update = 0;
-            // else update = 1;
             update = 1;
             console.log(update);
             break;
