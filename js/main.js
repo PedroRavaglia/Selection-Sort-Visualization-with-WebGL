@@ -41,8 +41,6 @@ void main() {
     color = vec4(height, 1.-height, height+0.3, 1.);
 }`
 
-let n = 250;
-
 let settings = {
     n: 250
 }
